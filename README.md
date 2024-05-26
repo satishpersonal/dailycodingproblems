@@ -1,2 +1,3 @@
 # dailycodingproblems
-Solve Coding Problem and store in this repo
+Solve Coding Problems [Daily] from Daily Coding Problem Website & store in this repo
+Please see apex class description for the problem statement.
