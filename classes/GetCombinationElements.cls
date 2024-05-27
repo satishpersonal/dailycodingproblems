@@ -1,6 +1,6 @@
 /**
- * For more Info Please read README.md File in the Repo.
- * If, you find any bugs or improvements. Feel free to create a Pull Request.
+* For more Info Please read README.md File in the Repo.
+* If, you find any bugs or improvements. Feel free to create a Pull Request.
 **/
 public class GetCombinationElements {
     public static List<Map<Integer, Integer>>  getTargetArrayMap(List<Integer> numList, Integer targetTotal){
