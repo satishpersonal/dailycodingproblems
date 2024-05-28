@@ -3,9 +3,9 @@
 * @Description:Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. 
 *		If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
 *		For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
-* @Not working for duplicate pass phrase: 
+* @Bug: Not working for duplicate pass phrase: 
 * 		Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
-* 		If you found out a nice solution, feel free to raise a #PR. I'm happy to accept :)
+* 		It can be probably solved by a wrapper, but If you found out a nice solution with primitive data type, feel free to raise a #PR. I'm happy to accept :)
 * @TestClass: DailyCodingProblem4Test.apxc
 * */
 public class DailyCodingProblem4 {
