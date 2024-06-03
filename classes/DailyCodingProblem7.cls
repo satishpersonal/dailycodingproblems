@@ -1,7 +1,8 @@
 /**
 *@Author: Satish Inuganti
 *@Description:Run-length encoding is a fast and simple method of encoding strings.
-*@E.g. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+*@E.g. The basic idea is to represent repeated successive characters as a single count and character. 
+*			For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 * */
 Public class DailyCodingProblem7 {
     public static string output;
@@ -14,6 +15,7 @@ Public class DailyCodingProblem7 {
             }else if (inputText.length()-1 == i){
                 tempList.add(charAtCurrentIndex);
                 output = (String.isBlank(output) && String.isEmpty(output)) ? tempList.size()+tempList[0] : output+ tempList.size()+tempList[0];
+                tempList.clear();
             }else if(tempList.get(tempList.size()-1) == charAtCurrentIndex){
                 tempList.add(charAtCurrentIndex);
             }
