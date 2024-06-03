@@ -13,6 +13,7 @@ Public class DailyCodingProblem7 {
             If(tempList.isEmpty()) {
                 tempList.add(charAtCurrentIndex);
             }else if (inputText.length()-1 == i){
+                //If current index is last character of the given input, finalize the output and return back the encoded string
                 tempList.add(charAtCurrentIndex);
                 output = (String.isBlank(output) && String.isEmpty(output)) ? tempList.size()+tempList[0] : output+ tempList.size()+tempList[0];
                 tempList.clear();
