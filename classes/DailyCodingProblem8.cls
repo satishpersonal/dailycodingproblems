@@ -6,7 +6,7 @@
 * */
 public class DailyCodingProblem8 {
     public static Integer findLeastOddOne(List<Integer> inputList){
-        List<Integer> sortedInput = sortIntegerList(inputList);
+        List<Integer> sortedInput = SortInteger.sort(inputList);
         system.debug(sortedInput);
         Integer nonDuplicatedInteger;
         for(Integer i=0;i<sortedInput.size();i++){
@@ -22,20 +22,5 @@ public class DailyCodingProblem8 {
         }
         return nonDuplicatedInteger;
     }
-    public static List<Integer> sortIntegerList(List<Integer> inputList){
-        Integer inputListSize = inputList.size();
-        List<Integer> sortedInput = new List<Integer>();
-        Integer tempVal;
-        Integer tempValIndex;
-        for(Integer i=0;i<inputListSize;i++){
-            tempVal = inputList.get(0);
-            for(Integer j=1;j<inputList.size();j++){
-                tempVal = (tempVal > inputList.get(j)) ? inputList.get(j) : tempVal;
-            }
-            sortedInput.add(tempVal);
-            tempValIndex = inputList.indexOf(tempVal);
-            inputList.remove(tempValIndex);
-        }
-        return sortedInput;
-    }
+    
 }
