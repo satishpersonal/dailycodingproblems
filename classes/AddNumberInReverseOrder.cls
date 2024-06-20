@@ -1,7 +1,9 @@
 /**
-* For more Info Please read README.md File in the Repo.
-* If, you find any bugs or improvements. Feel free to create a Pull Request.
-**/
+* @Author: Satish Inuganti
+* @Description: Sum of the list of non-negative integers in reverse order.
+* @Ex:
+* @Known Bugs: NA. If, you find any bugs or improvements. Feel free to create a Pull Request.
+* */
 public class AddNumberInReverseOrder {
     public static void getTotal(List<Integer> firstNumList, List<Integer> secondNumList){
         String firstNumber;

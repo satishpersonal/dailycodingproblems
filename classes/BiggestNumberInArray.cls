@@ -1,7 +1,9 @@
 /**
-* For more Info Please read README.md File in the Repo.
-* If, you find any bugs or improvements. Feel free to create a Pull Request.
-**/
+* @Author: Satish Inuganti
+* @Description: Find biggest non-negative integer in a array.
+* @Ex:
+* @Known Bugs: NA. If, you find any bugs or improvements. Feel free to create a Pull Request.
+* */
 public class BiggestNumberInArray {
     public static Integer getBiggestNumber(List<Integer> numList){
         Integer arraySize = numList.size();
