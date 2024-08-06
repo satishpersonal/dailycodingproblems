@@ -5,7 +5,7 @@
 * For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 * @TestClass: DailyCodingProblem2Test.apxc
 * */
-public class DailyCodingProblem2 {
+public class DailyCodingProblem002 {
     public static List<Integer> doBuildArray(List<Integer> input ){
         List<Integer> output = new List<Integer>();
         Integer inputSize  = input.size();

@@ -6,7 +6,7 @@ that calculates the maximum profit you could have made from buying and selling t
 * @Ex: For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out [2,1.5,2,3.5,2,2,2]
 * @Known Bugs: NA. If, you find any bugs or improvements. Feel free to create a Pull Request.
 * */
-public class DailyCodingProblem11 {
+public class DailyCodingProblem011 {
     public static List<Double> findRunningMedianSequence(List<Integer> inputList){
         List<Double> outputList = new List<Double>();
         List<Integer> temporaryList = new List<Integer>();

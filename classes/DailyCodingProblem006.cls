@@ -3,7 +3,7 @@
 *@Description:Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
 *@E.g. For example, given the string "([])[]({})", you should return true, Given the string "([)]" or "((()", you should return false.
 * */
-Public class DailyCodingProblem6 {
+Public class DailyCodingProblem006 {
     public static Map<String, String> bracketMap = new Map<String,String>{')'=>'(', ']' => '[', '}' => '{'};
         public static Boolean matchStringPattern(String inputText){
             List<String> tempList = new List<String>();

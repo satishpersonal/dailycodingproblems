@@ -8,7 +8,7 @@
 * 8 = max(7, 8, 7)
 * @TestClass: DailyCodingProblem3Test.apxc
 * */
-public class DailyCodingProblem3{
+public class DailyCodingProblem003{
     public static List<Integer> doBuild(List<Integer> inputElementList, Integer k){
         List<Integer> output = new List<Integer>();
         If(!inputElementList.isEmpty() && k > 1){

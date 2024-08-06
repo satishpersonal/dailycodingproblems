@@ -4,7 +4,7 @@
 *@E.g. The basic idea is to represent repeated successive characters as a single count and character. 
 *			For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 * */
-Public class DailyCodingProblem7 {
+Public class DailyCodingProblem007 {
     public static string output;
     public static string encodeInput(String inputText){
         List<String> tempList = new List<String>(); 

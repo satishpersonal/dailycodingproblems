@@ -3,7 +3,7 @@
 * @Description:The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other.
 * @Ex: For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
 * */
-public class DailyCodingProblem1 {
+public class DailyCodingProblem001 {
     public static Integer findEditDistance(String firstString, String secondString){
         Integer editDistance = 0;
         Integer firstStringLength = firstString.length();

@@ -8,7 +8,7 @@
 *			Apex Pattern Class can be used for this requirement.
 *@Documentation: https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_pattern_and_matcher_pattern_methods.htm
 * */
-public class DailyCodingProblem5 {
+public class DailyCodingProblem005 {
     public static boolean matchRegEx(String inputText, String regExPattern){
         boolean isRegExPatternAMatch = False;
         return Pattern.matches(regExPattern, inputText);

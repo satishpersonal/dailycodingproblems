@@ -8,7 +8,7 @@
 * 		It can be probably solved by a wrapper, but If you found out a nice solution with primitive data type, feel free to raise a #PR. I'm happy to accept :)
 * @TestClass: DailyCodingProblem4Test.apxc
 * */
-public class DailyCodingProblem4 {
+public class DailyCodingProblem004 {
 	public static List<String> doBuild(List<String> dictionaryOfWords, String inputSentence){
 		List<String> outputSortedStringList = new List<String>();
 		Map<Integer,String> indexWordMap = new Map<Integer,String>();
