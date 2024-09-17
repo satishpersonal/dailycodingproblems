@@ -1,7 +1,7 @@
 /**
  * @Author       : Satish Inuganti
- * @Description  : Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
- * @Ex:          : For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+ * @Description  : Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+ * @Ex:          : For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
  * @Known Bugs   : NA
 **/
 
