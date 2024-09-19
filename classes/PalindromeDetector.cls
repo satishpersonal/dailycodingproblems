@@ -15,9 +15,14 @@ public class PalindromeDetector {
     public PalindromeDetector(String inputString){
         String reversedString = '';
         Integer inputStringLength = inputString.length();
-        for(Integer i = inputStringLength - 1; i >= 0; i--){
-            reversedString += inputString.substring(i, i + 1);
+        //To be a palindromic string min length required is 3 chars.
+        If(inputStringLength <=2){
+            throw new HandledException('Goodluck! I\'m smart enough to catch you!!!!');
+        }else{
+            for(Integer i = inputStringLength - 1; i >= 0; i--){
+                reversedString += inputString.substring(i, i + 1);
+                isPalindrome = inputString.equals(reversedString) ? true : false;
+            }
         }
-        isPalindrome = inputString.equals(reversedString) ? true : false;
     }   
 }
