@@ -6,8 +6,8 @@
 **/
 
 public class DailyCodingProblem014 {
-    public static List<String> findPalindromicSubStrings(String inputText){
-        String longestPalindromicSubString;
+    public static String findLongestPalindromicSubString(String inputText){
+        String longestPalindromicSubString ='';
         List<String> possibleSubStringCombinations = new List<String>();
         List<String> palindromicSubStrings = new List<String>();
         for(Integer i = 0; i < inputText.length(); i++){
@@ -23,13 +23,14 @@ public class DailyCodingProblem014 {
             PalindromeDetector detector = new PalindromeDetector(subString);
             if(detector.isPalindrome){
                 palindromicSubStrings.add(subString);
+                longestPalindromicSubString = (subString.length()>longestPalindromicSubString.length())? subString : longestPalindromicSubString;
             }
         }
         If(palindromicSubStrings.isEmpty()){
             throw new HandledException('Goodluck, try harder! I\'m smart enough to catch you!');
         }
         else{
-            return palindromicSubStrings;
+            return longestPalindromicSubString;
         }   
     }  
 }
