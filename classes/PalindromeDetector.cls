@@ -17,7 +17,7 @@ public class PalindromeDetector {
         Integer inputStringLength = inputString.length();
         //To be a palindromic string min length required is 3 chars.
         If(inputStringLength <=2){
-            throw new HandledException('Goodluck! I\'m smart enough to catch you!!!!');
+            throw new HandledException('Goodluck, try harder! I\'m smart enough to catch you!');
         }else{
             for(Integer i = inputStringLength - 1; i >= 0; i--){
                 reversedString += inputString.substring(i, i + 1);

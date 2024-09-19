@@ -25,6 +25,11 @@ public class DailyCodingProblem014 {
                 palindromicSubStrings.add(subString);
             }
         }
-        return possibleSubStringCombinations;     
+        If(palindromicSubStrings.isEmpty()){
+            throw new HandledException('Goodluck, try harder! I\'m smart enough to catch you!');
+        }
+        else{
+            return palindromicSubStrings;
+        }   
     }  
 }
